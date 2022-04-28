@@ -7,13 +7,22 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/init"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="初始化"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:onClick="init"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        app:layout_constraintLeft_toLeftOf="@+id/init"
+        app:layout_constraintTop_toBottomOf="@+id/init"
+        android:onClick="login"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

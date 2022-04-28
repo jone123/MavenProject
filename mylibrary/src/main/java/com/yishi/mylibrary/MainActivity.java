@@ -1,2 +1,4 @@
-package com.yishi.mylibrary;public class MainActivity {
+package com.yishi.mylibrary;
+
+public class MainActivity {
 }

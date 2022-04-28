@@ -18,4 +18,8 @@ public class MainActivity extends AppCompatActivity {
     public void init(View view) {
         SDKManager.getInstance().init(MainActivity.this);
     }
+
+    public void login(View view) {
+        SDKManager.getInstance().login(MainActivity.this);
+    }
 }

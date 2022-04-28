@@ -19,8 +19,10 @@ dependencyResolutionManagement {
                 password "123456"
             }
         }
+        maven { url 'https://jitpack.io' }
     }
 }
 rootProject.name = "MavenProject"
 include ':app'
 include ':mylibrary'
+include ':mylibrary2'
