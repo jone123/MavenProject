@@ -20,6 +20,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void login(View view) {
-        SDKManager.getInstance().login(MainActivity.this);
+
     }
 }

@@ -13,12 +13,15 @@ public class SDKManager {
     }
 
     public void init(Context context){
-//        Toast.makeText(context, "初始化", Toast.LENGTH_SHORT).show();
-        ToastUtil.showToast(context,"插件初始化");
+        Toast.makeText(context, "初始化", Toast.LENGTH_SHORT).show();
+
     }
 
     public void login(Context context){
-        ToastUtil.showToast(context,"登录");
+        Toast.makeText(context, "登录", Toast.LENGTH_SHORT).show();
     }
 
+    public void pay(Context context){
+        Toast.makeText(context, "充值", Toast.LENGTH_SHORT).show();
+    }
 }
