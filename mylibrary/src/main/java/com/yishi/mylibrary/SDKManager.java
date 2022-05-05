@@ -3,8 +3,6 @@ package com.yishi.mylibrary;
 import android.content.Context;
 import android.widget.Toast;
 
-import com.yishi.mylibrary2.ToastUtil;
-
 public class SDKManager {
 
     private static SDKManager instance = new SDKManager();
